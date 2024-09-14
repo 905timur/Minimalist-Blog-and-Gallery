@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.name-heading {
+    font-family: 'Caveat', cursive;
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    font-size: 1.5em;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.page-navbar {
+    display: inline-block;
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #1980bb;
+}
+
+/* Animation for fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation for staggered appearance */
+.animate-stagger {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.social-icon:nth-child(1) { animation-delay: 0.5s; }
+.social-icon:nth-child(2) { animation-delay: 0.7s; }
