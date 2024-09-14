@@ -19,7 +19,7 @@ A minimal HTML blog template which features about, blog, projects, and gallery p
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/905timur/personal-blog.git`
+1. Clone the repository: `git clone https://github.com/905timur/minimalist-personal-blog-and-gallery.git`
 2. Open the `index.html` file in your web browser.
 
 ## Customization
