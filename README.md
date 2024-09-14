@@ -1,5 +1,6 @@
 # minimalist-personal-blog-and-gallery
-A minimal HTML blog template which features about, blog, projects, and gallery pages
+A minimal HTML blog template which features about, blog, projects, and gallery pages.
+[Live preview](https://905timur.github.io/minimalist-personal-blog-and-gallery/index.html)
 
 ## Features
 
