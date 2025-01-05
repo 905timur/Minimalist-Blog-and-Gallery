@@ -13,7 +13,7 @@ A minimal HTML blog template which features about, blog, projects, and gallery p
 * **Responsive Design:** Adapts to different screen sizes for optimal viewing experience.
 * **Dark Mode Theme:** Provides a visually appealing and comfortable browsing experience.
 
-## Technologies Used
+## Tech Stack
 
 * **HTML:** Structure and content of the website.
 * **CSS:** Styling and layout of the website.
